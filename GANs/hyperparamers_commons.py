@@ -1,0 +1,9 @@
+epoch_num = 200
+lr_g = 0.0002  # learning rate for Generator
+lr_d = 0.0002  # learning rate for Discriminator
+lr_en = 0.0002  # learning rate for encoder
+lr_de = 0.0002  # learning rate for decoder
+workers = 2  # subprocess number for load the image
+mean = [0.5]
+std = [0.5]
+slope = 0.2  # slope for leaky relu
